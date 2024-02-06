@@ -4,8 +4,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="Estilo.css">
+
+
+    <style>
+       
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li{
+            float: left;
+        }
+
+        li a{
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover{
+            background-color: #000000;
+        }
+        .fotos{
+            width: 160px;
+            float: left;
+
+        }
+        
+        div {
+            background-color: rgb(204, 121, 26);
+            width: 300px;
+            border: 7px solid rgb(94, 89, 89);
+            border-radius: 12px;
+            padding: 100;
+            margin: 25px;
+            
+        }
+
+    </style>
 </head>
-<body>
-    
+<body> 
+
+    <ul>
+        <li><a class="active" href="">Home</a></li>
+        <li><a class="active" href="">Contato</a></li>
+        <li><a class="active" href="Login.html">Login</a></li>
+    </ul>
+
+       <div class="fotos">
+        <h3>Rio de Janeiro</h3>
+            <img src="rio-de-janeiro.jpg">
+            
+            <h2>Rio De Janeiro </h2>
+            <h3> R$281,00</h3>
+            <h4> 3.412 Hoteis</h4>
+        </div>     
+          
+            
+        <div class="fotos">
+            <h3>Florianopolis</h3>
+            <img src="floria.jpg">
+                
+            <h2>Florianopolis </h2>
+            <h3> R$281,00</h3>
+            <h4> 3.157 Hoteis</h4>
+        </div>
+
+
+        <div class="fotos">
+            <h3>São Paulo</h3>
+            <img src="São Paulo.jpg">
+                
+            <h2>São Paulo </h2>
+            <h3> R$281,00</h3>
+            <h4> 3.005 Hoteis</h4>
+        </div>
+    </div>
+        
 </body>
 </html>
